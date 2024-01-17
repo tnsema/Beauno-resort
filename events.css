@@ -1,0 +1,277 @@
+
+body{
+
+    margin: 0px;
+
+}
+
+nav{
+
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 10px;
+    
+
+}
+
+nav ul{
+
+    margin-top: 0px;
+
+}
+
+nav ul li{
+
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 0px;
+    color: rgb(224, 224, 224);
+    cursor: pointer;
+    
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+
+}
+
+nav img{
+
+    height: 1.5cm;
+    border-radius: 50%;
+
+
+}
+main{
+    
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(website_images/background_pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding-top: 3cm;
+
+}
+
+.heading{
+
+    width: 100%;
+    height: 5cm;
+    background-color: transparent;
+
+}
+
+footer{
+
+    width: 100%;
+    height: 5cm;
+    background-color: black;
+
+}
+
+.heading h1{
+
+    text-align: center;
+    color: rgb(117, 77, 29);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 2px white;
+    /*borde: 2px solid black;*/
+
+}
+
+.content{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.content .content_inside{
+
+    width: 80%;
+    height: auto;
+    
+
+}
+
+
+
+.content .content_inside .the_event{
+
+    height: 13cm;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(245, 240, 235);
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    gap: 15px;
+    padding: 10px;
+    
+}
+
+
+
+.actual_event_img{
+
+    
+    background-color: rgb(255, 255, 255);
+ }
+
+ .actual_event_img img{
+
+    height: 100%;
+
+ }
+
+ .event_info{
+
+    
+    display: grid;
+    
+    grid-template-rows: 85% 15%;
+ }
+
+ .event_info .event_info_1{
+
+    color: rgb(117, 77, 29);
+
+ }
+
+ .event_info .event_info_1 h1{
+
+    text-align: center;
+    margin-bottom: 30px;
+
+ }
+
+ .event_info .event_info_2{
+
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .event_info .event_info_2 .has_ticket_purchase{
+
+    height: 1cm;
+    width: 5cm;
+    border-radius: 30px;
+    color: rgb(25, 215, 152);
+    border: 1px solid rgb(25, 215, 152);
+    font-size: 15px;
+    background-color: transparent;
+    animation-name: blink_button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+ }
+
+ @keyframes blink_button{
+
+    50%{background-color: rgb(25, 215, 152);
+        
+        color: rgb(245, 240, 235);}
+
+ }
+
+
+ .no_ticket_purchase{
+
+    height: 1cm;
+    width: 5cm;
+    background-color: transparent;
+    color: rgb(25, 215, 152);
+    border: 1px solid rgb(25, 215, 152);
+    font-size: 15px;
+
+ }
+
+.content div .actual_event_notFound{
+
+    width: 100%;
+    height: 5cm;
+    background-color:rgb(245, 240, 235);
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content div .actual_event_notFound{
+
+    color: rgb(117, 77, 29);
+
+}
+
+
+
+footer{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(77, 53, 22);
+
+}
+
+footer .first3 .top3{
+
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 7cm;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+footer .first3 .top3 .topic3{
+
+    color: white;
+    font-size: 40px;
+
+}
+
+footer .first3 .top3 a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+footer .second3{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+footer .second3 div{
+
+    width: 100%;
+    height: 8cm;
+    background-color: transparent;
+    
+
+    border: 1.5px solid rgb(206, 206, 206);
+
+}
